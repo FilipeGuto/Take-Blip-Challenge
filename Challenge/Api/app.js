@@ -1,8 +1,8 @@
 const express = require('express');
+const filterDataResponse = require('./src/controller/controller.data');
 
 const app = express();
-app.use(function (_req, res,) {
-  res.status(200).json('success');
-});
+
+app.get('/', filterDataResponse);
 
 module.exports = app;
