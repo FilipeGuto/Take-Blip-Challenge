@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Filipe Augusto de Cássia",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
